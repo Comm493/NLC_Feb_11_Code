@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: comm493_NLC_2019
+  host: comm493_NLC_2019
+  disk_quota: 1024M
+  buildpack: python_buildpack
